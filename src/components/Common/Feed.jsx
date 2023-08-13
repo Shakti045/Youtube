@@ -15,8 +15,8 @@ const Feed = () => {
       getvideos(keyword)
     },[keyword])
   return (
-     <div className='  items-center   mx-auto flex flex-col gap-5 relative w-full h-full '>
-        <h1 className=' flex gap-4 w-full ml-[80px]   justify-start text-white font-bold text-4xl font-mono '><span className=' text-pink-300'>{keyword}</span>  videos</h1>
+     <div className=' p-4  items-center   mx-auto flex flex-col gap-5 relative w-full h-full '>
+        {/* <h1 className=' flex gap-4 w-full ml-[80px]   justify-start text-white font-bold text-4xl font-mono '><span className=' text-pink-300'>{keyword}</span>  videos</h1> */}
          {
             loading?(
                 <Loader/>

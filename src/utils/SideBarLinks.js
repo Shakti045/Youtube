@@ -12,10 +12,9 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
+
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'Code', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
@@ -30,4 +29,6 @@ export const categories = [
   { name: 'Comedy', icon: <TheaterComedyIcon />, },
   { name: 'Gym', icon: <FitnessCenterIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Code', icon: <CodeIcon />, },
+  { name: 'Coding', icon: <CodeIcon />, },
 ];
