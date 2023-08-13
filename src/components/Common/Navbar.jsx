@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../../assets/YouTube_Logo_2017.svg.png"
+// import logo from "../../assets/YouTube_Logo_2017.svg.png"
 import { Link } from 'react-router-dom'
 import {FiSearch} from 'react-icons/fi'
 import { useNavigate } from 'react-router-dom'
@@ -16,8 +16,9 @@ const Navbar = () => {
   return (
      <nav className={`flex justify-between px-10 w-full ${location.pathname==="/"?" bg-richblack-900":" bg-black"}    h-20'`}>
      <Link to="/">
-      <div className=' h-20 flex justify-center items-center'>
-      <img src={logo} alt='youtubelogo' className=' h-11  '></img>
+      <div className=' h-20 flex justify-center gap-4 items-center'>
+      <img src="https://i.ibb.co/s9Qys2j/logo.png" alt='youtubelogo' className=' h-11  '></img>
+      <h1 className=' text-white font-bold text-2xl'>YOUTUBE</h1>
       </div>
      </Link>
      <form onSubmit={submithandler} className=' my-auto bg-richblack-700 p-3  w-[500px]  rounded-md outline-none text-white flex justify-center items-center h-11'>
