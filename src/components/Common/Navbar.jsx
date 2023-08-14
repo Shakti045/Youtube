@@ -14,7 +14,7 @@ const Navbar = () => {
     navigate(`/search/${value}`)
   }
   return (
-     <nav className={`flex max-sm:flex-col max-sm:gap-2 max-sm:mt-1  justify-between px-10 w-full ${location.pathname==="/"?" bg-richblack-900":" bg-black"}  max-sm:h-fit    h-20'`}>
+     <nav className={`flex max-sm:flex-col max-sm:gap-2 max-sm:mt-1  justify-between px-10 w-full  bg-richblack-900  max-sm:h-fit    h-20'`}>
      <Link to="/">
       <div className=' lg:h-20 flex justify-center gap-4 items-center'>
       <img src="https://i.ibb.co/s9Qys2j/logo.png" alt='youtubelogo' className=' h-11  '></img>

@@ -88,8 +88,8 @@ const WatchVideo = () => {
     getvideodetails(videoid);
    },[videoid])
   return (
-    <div className=' overflow-y-scroll feed max-sm:h-fit justify-between h-[calc(100vh-5rem)] w-[100vw] flex
-    max-sm:flex-col flex-row max-sm:p-2 p-4 text-white'>
+    <div className=' bg-richblack-900 overflow-y-scroll feed max-sm:h-fit justify-between h-[calc(100vh-5rem)] w-[100vw] flex
+    max-sm:flex-col flex-row gap-5 max-sm:p-2 p-4 text-white'>
    
        <div className=' max-sm:h-[60vh] max-sm:mx-auto   max-sm:w-[96vw] h-[calc(100vh-5rem)]  overflow-y-scroll feed w-[60%]  flex flex-col gap-2'>
        <ReactPlayer height={"100%"}  width={"100%"} playing controls url={`https://www.youtube.com/watch?v=${videoid}`}  />
