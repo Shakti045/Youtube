@@ -5,7 +5,7 @@ import { Appcontext } from "../../context/Appcontext";
 const Sidebar = () => {
   const {keyword,setkeyword}=useContext(Appcontext);
   return (
-     <div className=" bg-richblack-900 sidebar overflow-y-scroll flex flex-col
+     <div className=" max-sm:hidden bg-richblack-900 sidebar overflow-y-scroll flex flex-col
       max-sm:flex-row gap-4 text-lg text-white font-bold w-full h-full pt-8  ">
         {
           categories.map((e,index)=>{

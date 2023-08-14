@@ -3,7 +3,7 @@ import Sidebar from "../components/Common/Sidebar"
 import Feed from '../components/Common/Feed';
 const Home = () => {
   return (
-     <div className=' w-full flex flex-row max-sm:flex-col h-[calc(100vh-5rem)] '>
+     <div className=' w-full flex flex-row max-sm:flex-col  h-[calc(100vh-5rem)] '>
     <section className='  max-lg:h-full  lg:w-[20%]'>
       <Sidebar/>
     </section>
