@@ -7,7 +7,7 @@ import WatchVideo from './pages/WatchVideo'
 import Channel from './pages/Channel'
 const App = () => {
   return (
-     <section className=' overflow-hidden w-[100vw] h-[100vh] flex flex-col bg-black '>
+     <section className=' max-sm:overflow-y-scroll overflow-hidden w-[100vw] h-[100vh] flex flex-col bg-black '>
         <Navbar/>
         <main>
           <Routes>

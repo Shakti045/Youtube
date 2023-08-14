@@ -20,14 +20,14 @@ const Search = () => {
     getdata(keyword)
   },[keyword])
   return (
-      <div className=' text-white  flex flex-col  gap-4 p-4 w-full h-[calc(100vh-5rem)]'>
+      <div className='  text-white  flex flex-col   gap-4 p-4 w-full h-[calc(100vh-5rem)]'>
          <h1 className=' flex gap-3 text-3xl font-mono '>Videos for <span className=' text-pink-400'>{keyword}</span></h1>
          <div className=' feed w-full  h-full overflow-y-scroll'>
            {
             loading?(
               <Loader/>
             ):(
-              <div className=' feed  h-full feed  overflow-y-scroll  grid grid-cols-3   gap-4  '>
+              <div className=' feed  h-full feed  overflow-y-scroll max-sm:grid-cols-1  max-sm:pl-2  grid grid-cols-3   gap-4  '>
               {
                 videos.length===0?(
                     <h1>No videos found</h1>

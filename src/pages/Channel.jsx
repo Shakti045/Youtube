@@ -23,8 +23,8 @@ const Channel = () => {
     getchanneldata(channelid)
   },[location])
   return (
-    <div className=' p-4 flex flex-col gap-4  w-full h-[calc(100vh-5rem)] overflow-y-scroll feed text-white'>
-      <div  className=' w-full grid grid-cols-3 gap-4'>
+    <div className='  p-4 flex flex-col gap-4  w-full h-[calc(100vh-5rem)] overflow-y-scroll feed text-white'>
+      <div  className=' w-full grid grid-cols-3 max-sm:grid-cols-1 gap-4'>
          {
           channeldata?.map((video,index)=>{
             return <VideoCard key={index} {...video}/>
